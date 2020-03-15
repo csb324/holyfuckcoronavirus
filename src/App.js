@@ -23,12 +23,14 @@ function App() {
       <Router>
         <Header />
 
-        <Switch>
-          { routeComponents }
-          <Route path="*">
-            <h1>whoops how did you get here?</h1>
-          </Route>
-        </Switch>
+        <main class="App__main">
+          <Switch>
+            { routeComponents }
+            <Route path="*">
+              <h1>whoops how did you get here?</h1>
+            </Route>
+          </Switch>
+        </main>
 
         <footer>
           Made with &lt;3 by Clara Beyer

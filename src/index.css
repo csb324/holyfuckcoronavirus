@@ -4,4 +4,9 @@
 body {
   font-family: 'EB Garamond', 'Times New Roman', Times, serif;
   font-weight: 400;
+  margin: 0;
+}
+
+html, body, #root {
+  height: 100%;
 }
